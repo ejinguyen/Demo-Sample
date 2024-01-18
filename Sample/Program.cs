@@ -26,7 +26,6 @@ namespace Sample
 
             app.UseAuthorization();
 
-
             app.MapControllers();
             app.MapGet("/", () => DateTimeOffset.Now.ToString());
 
